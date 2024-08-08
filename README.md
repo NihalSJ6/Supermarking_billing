@@ -23,3 +23,10 @@ Screeshots :-
     <img width="981" alt="Screenshot 2024-08-08 at 5 39 43 PM" src="https://github.com/user-attachments/assets/4cadd13a-837b-49ee-b379-c87b60e85994">
 
 </div>
+
+
+<img src="https://via.placeholder.com/300x200" alt="Screenshot1" style="display: block; margin-bottom: 100px;"/>
+
+<img src="https://via.placeholder.com/300x200" alt="Screenshot 2" style="display: block; margin-bottom: 100px;"/>
+
+<img src="https://via.placeholder.com/300x200" alt="Screenshot 3" style="display: block;"/>
