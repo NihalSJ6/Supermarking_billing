@@ -7,6 +7,16 @@ function addInvoiceItem() {
         <tr id="itemRow${itemCounter}">
             <td><input type="text" class="form-control" placeholder="Enter Description" required></td>
             <td><input type="number" class="form-control quantity" placeholder="Enter Quantity" required></td>
+            <td>
+                <select class="form-control unit">
+                    <option value="grams">Grams</option>
+                    <option value="kilograms">Kilograms</option>
+                    <option value="milliliters">Milliliters</option>
+                    <option value="liters">Liters</option>
+                    <option value="packs">Packs</option>
+                    <option value="pieces">Pieces</option>
+                </select>
+            </td>
             <td><input type="number" class="form-control unitPrice" placeholder="Enter Unit Price" required></td>
             <td><input type="text" class="form-control totalItemPrice" disabled readonly></td>
             <td><button type="button" class="btn btn-danger" onclick="removeInvoiceItem(${itemCounter})">Remove</button></td>
@@ -57,12 +67,14 @@ function printInvoice() {
     $("tr[id^='itemRow']").each(function () {
         const description = $(this).find("td:eq(0) input").val();
         const quantity = $(this).find("td:eq(1) input").val();
-        const unitPrice = $(this).find("td:eq(2) input").val();
-        const totalItemPrice = $(this).find("td:eq(3) input").val();
+        const unit = $(this).find(".unit").val();
+        const unitPrice = $(this).find("td:eq(3) input").val();
+        const totalItemPrice = $(this).find("td:eq(4) input").val();
 
         items.push({
             description: description,
             quantity: quantity,
+            unit: unit,
             unitPrice: unitPrice,
             totalItemPrice: totalItemPrice,
         });
@@ -104,6 +116,7 @@ function printInvoice() {
                         <tr>
                             <th>Description</th>
                             <th>Quantity</th>
+                            <th>Unit</th>
                             <th>Unit Price</th>
                             <th>Total</th>
                         </tr>
@@ -113,6 +126,7 @@ function printInvoice() {
                             <tr>
                                 <td>${item.description}</td>
                                 <td>${item.quantity}</td>
+                                <td>${item.unit}</td>
                                 <td>${item.unitPrice}</td>
                                 <td>${item.totalItemPrice}</td>
                             </tr>
