@@ -9,24 +9,11 @@ do the right click, and press Open with Live Server, you can then run the projec
 
 Screeshots :-
 
-<div style="margin-bottom: 500px;">
-    <img width="1400"  alt="Screenshot 2024-08-12 at 12 07 58 PM" src="https://github.com/user-attachments/assets/4136595b-2ab8-4bc4-8b0c-e689e92f4852">
->
->
-</div>
+1) <img width="1400"  alt="Screenshot 2024-08-12 at 12 07 58 PM" src="https://github.com/user-attachments/assets/4136595b-2ab8-4bc4-8b0c-e689e92f4852">
+ 
+2) <img width="1400" alt="Screenshot 2024-08-12 at 12 08 11 PM" src="https://github.com/user-attachments/assets/c742b417-5211-4b0d-b1b7-123f16c0e9ef">
 
-<div style="margin-bottom: 500px;">
-    
-<img width="1400" alt="Screenshot 2024-08-12 at 12 08 11 PM" src="https://github.com/user-attachments/assets/c742b417-5211-4b0d-b1b7-123f16c0e9ef">
->
-
-</div>
-
-<div>
-    <img width="1400" alt="Screenshot 2024-08-12 at 12 08 21 PM" src="https://github.com/user-attachments/assets/02de37f3-57ef-4eb0-a6d1-feb616f58c0c">
->
-
-</div>
+3) <img width="1400" alt="Screenshot 2024-08-12 at 12 08 21 PM" src="https://github.com/user-attachments/assets/02de37f3-57ef-4eb0-a6d1-feb616f58c0c">
 
 
 
